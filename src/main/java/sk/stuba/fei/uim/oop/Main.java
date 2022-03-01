@@ -15,6 +15,8 @@ public class Main {
       testArray(y);
       System.out.println(Arrays.toString(y));
 
+      testArraySpread("text",1, 2, 3, 4, 5);
+
 
     }
 
@@ -28,4 +30,10 @@ public class Main {
       System.out.println(Arrays.toString(array));
 
     }
+
+  public static void testArraySpread(String text, int... array){
+    System.out.println(text);
+    System.out.println(Arrays.toString(array));
+
+  }
 }
